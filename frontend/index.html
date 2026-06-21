@@ -308,7 +308,7 @@
       if (!username || !password) return showError('Please fill in all fields');
 
       try {
-        const res  = await fetch('https://canopy-dmv8.onrender.com/auth/login', {
+        const res  = await fetch('https://canopy-705v.onrender.com/auth/login', {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
           body:    JSON.stringify({ username, password })
@@ -334,7 +334,7 @@
       if (!username || !password) return showError('Please fill in all fields');
 
       try {
-        const res  = await fetch('https://canopy-dmv8.onrender.com/auth/register', {
+        const res  = await fetch('https://canopy-705v.onrender.com/auth/register', {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
           body:    JSON.stringify({ username, password, role })

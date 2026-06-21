@@ -14,7 +14,7 @@ const avatarColors = { admin: '#2d6e2d', moderator: '#4a9e4a', member: '#7abe7a'
 document.getElementById('user-avatar').style.background = avatarColors[role] || '#3a8a3a';
 
 // Connect socket with token auth
-const socket = io('https://canopy-dmv8.onrender.com', {
+const socket = io('https://canopy-705v.onrender.com', {
   transports: ['websocket'],
   auth: { token }
 });
